@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+#main{
+    width: 90%;
+    margin: 10px auto;
+    max-width: 800px;
+}
+#display{
+    background-color: rgb(78, 20, 78);
+    font-size: 48px;
+    padding: 10px;
+    text-align: right;
+    color: rgb(214, 167, 233);
+}
+#buttons span{
+    width: 25%;
+    height: 60px;
+    float: left;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    font-size: 32px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    background-color: rgb(200, 114, 182);
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+#buttons span:hover{
+    background-color: #68a;
+}
+
+#buttons .btn-number{
+    background-color: rgb(139, 28, 139);
+}
