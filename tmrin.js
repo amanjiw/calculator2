@@ -88,3 +88,5 @@ equal.addEventListener("click", function (event) {
     eql=true;
 });
 
+
+
